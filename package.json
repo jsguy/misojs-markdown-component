@@ -1,0 +1,32 @@
+{
+  "name": "misojs-markdown-component",
+  "version": "0.0.1",
+  "description": "A markdown component for use in misojs, also works with mithril through browserify",
+  "main": "markdown.component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsguy/misojs-markdown-component.git"
+  },
+  "dependencies": {
+    "marked": "^0.3.3",
+    "mithril": "^0.2.0"
+  },
+  "miso": {
+    "external": {
+    }
+  },
+  "keywords": [
+    "misojs",
+    "mithril",
+    "markdown"
+  ],
+  "author": "jsguy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsguy/misojs-markdown-component/issues"
+  },
+  "homepage": "https://github.com/jsguy/misojs-markdown-component#readme"
+}
