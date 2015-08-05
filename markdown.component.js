@@ -1,11 +1,7 @@
 /*
-	TODO:
-
-	* We only want this to load marked on the server side, 
-	as there is no rendering to be done client side, and 
-	adding the 'marked' code to miso just adds to the 
-	bulk of miso.js
-
+	Misojs Markdown component
+	Note: See markdown.component.client.js for client side 
+	rendering - it is static, ie: you can't re-render.
 */
 //	Renders markdown using marked
 var m = require('mithril'),
@@ -51,7 +47,7 @@ var renderMarkdown = function(str){
 /* Markdown component */
 var MarkdownComponent = {
 	view: function(ctrl, args) {
-		return m("div",{"class": "markdown", id: "bleh"},
+		return m("div", {"class": "markdown"},
 			m.trust(renderMarkdown(args.value))
 		);
 	}
