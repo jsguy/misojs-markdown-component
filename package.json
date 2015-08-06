@@ -1,6 +1,6 @@
 {
   "name": "misojs-markdown-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A markdown component for use in misojs, also works with mithril through browserify",
   "main": "markdown.component.js",
   "scripts": {
